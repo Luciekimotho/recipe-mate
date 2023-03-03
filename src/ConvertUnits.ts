@@ -34,8 +34,11 @@ export const ConvertWeightUnits = (value: number, from: string, to: string ) => 
                 ratio: 28.3495
             },
             lb: {
-                ratio: 453.592
+                ratio: 453.592 
             },
+            cups: {
+                ratio: 250
+            }
         }
     
         return value * units[from].ratio / units[to].ratio;
