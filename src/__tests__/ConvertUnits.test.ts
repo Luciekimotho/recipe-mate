@@ -1,8 +1,7 @@
-import { ConvertVolumeUnits } from '../ConvertUnits';
-import { ConvertWeightUnits } from '../ConvertUnits';
+import { ConvertVolumeUnits, ConvertWeightUnits } from '../app';
 
 describe('Convert Units', () => {
-  it('Convert Volume Units', () => {
+  test('Convert Volume Units', () => {
     expect(ConvertVolumeUnits(1, 'ml', 'l')).toBe(0.001);
     expect(ConvertVolumeUnits(1, 'l', 'ml')).toBe(1000);
     expect(ConvertVolumeUnits(1, 'tsp', 'ml')).toBe(5);
