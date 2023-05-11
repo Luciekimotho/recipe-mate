@@ -2,9 +2,15 @@
   "name": "recipe-mate",
   "version": "1.0.0",
   "description": "A utility library for working with recipes",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/Luciekimotho/recipe-mate.git",
   "author": "Lucie Kimotho",
+  "keywords": [
+    "recipe",
+    "utility",
+    "library"
+  ],
   "license": "MIT",
   "files": [
     "lib/**/*"
